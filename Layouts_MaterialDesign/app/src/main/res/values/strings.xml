@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouts_MaterialDesign</string>
+    <string name="FrameLayout" />
+    <string name="frameLayout">FrameLayout</string>
+    <string name="LinearLayout">LinearLayout</string>
+    <string name="GridLayout" />
+    <string name="gridLayout">GridLayout</string>
+    <string name="RelativeLayout">RelativeLayout</string>
+</resources>

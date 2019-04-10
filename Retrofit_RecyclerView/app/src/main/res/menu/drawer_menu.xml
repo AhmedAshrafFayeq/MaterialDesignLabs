@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_viewID">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/camera_24dp"
+            android:title="camera" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/slideshow_24dp"
+            android:title="foreground" />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/navigation_24dp"
+                android:title="navigation"/>
+            <item
+                android:id="@+id/and"
+                android:icon="@drawable/and_24dp"
+                android:title="androidflag"/>
+
+
+        </menu>
+    </item>
+
+</menu>

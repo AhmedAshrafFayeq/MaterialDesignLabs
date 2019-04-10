@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridActivity">
+
+    <TextView
+        android:id="@+id/gridID1"
+        android:layout_width="160dp"
+        android:layout_height="211dp"
+        android:text="TextView"
+        android:background="#EEEEEE"/>
+
+    <TextView
+        android:id="@+id/gridID3"
+        android:layout_width="107dp"
+        android:layout_height="266dp"
+        android:layout_row="20"
+        android:layout_column="15"
+        android:text="TextView"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/gridID2"
+        android:layout_width="149dp"
+        android:layout_height="276dp"
+        android:layout_row="18"
+        android:layout_column="13"
+        android:background="#000"
+        android:text="TextView" />
+</GridLayout>
